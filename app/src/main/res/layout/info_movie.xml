@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_details">
+
+<!--    <TextView
+        style="@style/TextViewStyle.LargeText"
+        android:text="@string/movie_title"
+        android:visibility="gone"/>-->
+
+    <TextView
+        android:id="@+id/text_view_title"
+        style="@style/TextViewStyle"
+        android:textAllCaps="true"
+        android:hint="@string/hint_movie_title"
+        android:textColor="@android:color/secondary_text_dark"
+        />
+
+
+<!--    <TextView
+        style="@style/TextViewStyle.LargeText"
+        android:text="@string/release_date"
+        android:visibility="gone"/>-->
+
+    <TextView
+        android:id="@+id/text_view_release_date"
+        style="@style/TextViewStyle"
+        android:hint="@string/hint_release_date"/>
+
+    <TextView
+        style="@style/TextViewStyle.LargeText"
+        android:text="@string/voter_rating" />
+
+    <TextView
+        android:id="@+id/text_view_voter_rating"
+        style="@style/TextViewStyle"
+        android:hint="@string/hint_rating"/>
+
+    <Button
+        android:onClick="readReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reviews_button"/>
+</LinearLayout>

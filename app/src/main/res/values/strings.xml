@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+
+    <!--sort movies based on popularity-->
+    <string name="popular_movies">popular</string>
+    <!--sort movie based on rating-->
+    <string name="top_rating">top_rated</string>
+
+    <string name="popular_movie_label">Popular</string>
+    <string name="top_rated_label">Top rated</string>
+
+
+    <string name="movie_sort_title">Sorting Options</string>
+
+    <!--Strings for detail activity TextViews-->
+    <string name="overview">Overview</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="voter_rating">Voter Rating</string>
+    <string name="release_date">Release Date</string>
+    <string name="transition_name">transition name</string>
+
+    <!--details activity label-->
+    <string name="movie_detail">Movie Details</string>
+    <string name="trailer_hint">Trailer</string>
+
+    <!--fav movie-->
+    <string name="fav_movie">Favorite Movie</string>
+    <string name="selected_fav">select favorite movie</string>
+
+    <string name="reviews_button">reviews</string>
+
+    <string name="hint_movie_title">TITLE</string>
+    <string name="hint_release_date">Release date</string>
+    <string name="hint_rating">rating</string>
+
+    <string name="hint_review_auth">Name</string>
+    <string name="hint_review_comment">Test Comment</string>
+    <string name="cancel_alert_dialog">Cancel</string>
+    <string name="favorite_movie_label">Favorite</string>
+</resources>

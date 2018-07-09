@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/ic_sort_white_32dp"
+        android:title="@string/movie_sort_title"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item
+                android:id="@+id/popular_movies"
+                android:title="@string/popular_movie_label" />
+            <item
+                android:id="@+id/top_rated"
+                android:title="@string/top_rated_label" />
+            <item
+                android:id="@+id/favorite_movies"
+                android:title="@string/favorite_movie_label" />
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--padding spaced value-->
+    <dimen name="padding_space">3dp</dimen>
+    <dimen name="image_width">150dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+
+    <!--padding for parent LinearLayout-->
+    <dimen name="layout_padding">8dp</dimen>
+
+    <!--added spacing for movie detail info-->
+    <dimen name="padding_bottom">4dp</dimen>
+
+    <dimen name="padding_bottom_zero">0dp</dimen>
+    <dimen name="left_margin">72dp</dimen>
+
+    <!--used to separate trailers from overview-->
+    <dimen name="separating_line">2dp</dimen>
+    <dimen name="trailer_padding">8dp</dimen>
+    <dimen name="alertDialog_padding">8dp</dimen>
+    <dimen name="alertDialog_textPadding">4dp</dimen>
+    <dimen name="alertDialog_nextCommentPadding">8dp</dimen>
+    <dimen name="image_button_padding">16dp</dimen>
+
+    <!--padding line for separating line of video list-->
+    <dimen name="margin_for_line">8dp</dimen>
+</resources>

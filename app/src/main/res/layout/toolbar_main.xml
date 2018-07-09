@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ToolBarTheme">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/left_margin"
+         android:paddingStart="@dimen/left_margin"
+        android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|right|center_vertical"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_star_border_white_24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/selected_fav"
+        android:paddingEnd="@dimen/image_button_padding"
+        android:paddingRight="@dimen/image_button_padding" />
+</android.support.v7.widget.Toolbar>
+
+    <!--Source https://guides.codepath.com/android/Using-the-App-Toolbar#reusing-the-toolbar-->
